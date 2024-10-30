@@ -1,0 +1,47 @@
+# Окружение Python
+domrf_test/
+/home/artemiy/domrf_test/domrf_test
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Логи
+*.log
+
+# Конфигурационные и временные файлы
+*.ini
+*.yaml
+*.yml
+*.xml
+*.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Артефакты среды разработки (если используете)
+.vscode/
+.idea/
+
+# Артефакты сборки и развертывания
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.whl
+
+# Пакеты и архивы, загруженные из PyPI и Arch Linux
+*.tar.gz
+*.zip
+*.bz2
+*.xz
+*.pkg.tar.zst
+
+
+embeddings_cache.pkl
