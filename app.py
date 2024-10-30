@@ -13,7 +13,7 @@ import re
 import pickle
 from nltk.tokenize import sent_tokenize
 
-nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
